@@ -1,0 +1,11 @@
+{
+  "name": "E&A Medical Coding LLC",
+  "short_name": "E&A Medical",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#0b5cab",
+  "background_color": "#ffffff",
+  "display": "browser"
+}

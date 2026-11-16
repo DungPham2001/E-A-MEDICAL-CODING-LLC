@@ -9,7 +9,7 @@ index.html       # All page content
 css/styles.css   # Design tokens (colors, radius…) at the top + all styles
 js/main.js       # Mobile menu, header shadow, FAQ, scroll reveal, contact form
 images/          # Photos (WebP)
-favicon.svg
+favicon.*, apple-touch-icon.png, icon-*.png, site.webmanifest   # Icons for all browsers
 ```
 
 ## Run locally
