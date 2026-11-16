@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E&amp;A Medical Coding LLC | Medical Coding &amp; Billing Support</title>
+  <meta name="description" content="E&amp;A Medical Coding LLC helps clinics and healthcare providers offload administrative work — medical coding, billing, claims and credentialing — so they can focus on patients." />
+  <meta property="og:title" content="E&amp;A Medical Coding LLC" />
+  <meta property="og:description" content="Less paperwork. More patient care. Medical coding and billing support for clinics and providers." />
+  <meta property="og:type" content="website" />
+  <!-- After deploying, add: <meta property="og:image" content="https://YOUR-DOMAIN/images/hero-care.webp" /> -->
+  <meta name="theme-color" content="#0b5cab" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- SVG icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-code" viewBox="0 0 24 24"><path d="M9 7 4 12l5 5M15 7l5 5-5 5M13.5 5l-3 14"/></symbol>
+      <symbol id="i-invoice" viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6zM9 9h6M9 13h6M9 17h4"/></symbol>
+      <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.3-4.9L4 8M4 4v4h4M4 13a8 8 0 0 0 14.3 4.9L20 16M20 20v-4h-4"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v6c0 4.4 3 7.9 7 9 4-1.1 7-4.6 7-9V6zM9 12l2 2 4-4"/></symbol>
+      <symbol id="i-badge" viewBox="0 0 24 24"><path d="M12 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10M8.5 12 7 21l5-3 5 3-1.5-9"/></symbol>
+      <symbol id="i-clipboard" viewBox="0 0 24 24"><path d="M9 4h6v3H9zM7 5H5v16h14V5h-2M9 12l2 2 4-4M9 17h6"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><path d="M6 11h12v10H6zM8.5 11V8a3.5 3.5 0 0 1 7 0v3M12 15v2"/></symbol>
+      <symbol id="i-target" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8M12 11.5v1"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4zM8 10h8M8 13h5"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><path d="M3 6h18v12H3zM3 7l9 6 9-6"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11M12 8a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M4 21a8 8 0 0 1 16 0"/></symbol>
+      <symbol id="i-building" viewBox="0 0 24 24"><path d="M4 21V5l8-2v18M12 8h8v13M3 21h18M8 8v.01M8 12v.01M8 16v.01M16 12v.01M16 16v.01"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5 10 17 19 7"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-logo" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#0b5cab"/><path d="M27 14h10v13h13v10H37v13H27V37H14V27h13z" fill="#fff"/></symbol>
+    </defs>
+  </svg>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="E&amp;A Medical Coding LLC — home">
+        <svg class="logo" width="36" height="36" aria-hidden="true"><use href="#i-logo"/></svg>
+        <span class="brand__text"><strong>E&amp;A</strong> Medical Coding</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn--primary nav__cta">Free Consultation</a>
+      </nav>
+
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <svg class="ic icon-menu" width="24" height="24" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="ic icon-close" width="24" height="24" aria-hidden="true" hidden><use href="#i-close"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <span class="pill"><span class="pill__dot"></span> Medical coding &amp; billing support · Florida, US</span>
+          <h1 id="hero-title">Less paperwork.<br /><span class="text-accent">More patient care.</span></h1>
+          <p class="hero__lead">
+            E&amp;A Medical Coding LLC helps clinics and healthcare providers offload their administrative workload —
+            coding, billing, claims and credentialing — so your team can focus on what matters most: your patients.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary btn--lg">
+              Get a Free Consultation
+              <svg class="ic" width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+            <a href="#services" class="btn btn--ghost btn--lg">Explore Services</a>
+          </div>
+          <ul class="hero__checks">
+            <li><svg class="ic" width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg> HIPAA-aligned processes</li>
+            <li><svg class="ic" width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg> Works with your existing EHR</li>
+            <li><svg class="ic" width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg> Flexible, à la carte services</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual">
+          <img
+            class="hero__photo" data-parallax="0.06"
+            src="images/hero-care.webp"
+            alt="A caregiver holding a patient’s hands"
+            width="1100" height="1200"
+            fetchpriority="high" />
+          <div class="card-mock" aria-hidden="true">
+            <div class="card-mock__head">
+              <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+              <span class="card-mock__title">Claim summary</span>
+            </div>
+            <div class="card-mock__row"><span>Diagnosis codes</span><span class="tag tag--ok">Verified</span></div>
+            <div class="card-mock__row"><span>Procedure codes</span><span class="tag tag--ok">Verified</span></div>
+            <div class="card-mock__row"><span>Eligibility check</span><span class="tag tag--ok">Active</span></div>
+            <div class="card-mock__row"><span>Claim status</span><span class="tag tag--info">Submitted</span></div>
+            <div class="card-mock__bar"><span style="width:82%"></span></div>
+          </div>
+          <div class="float-card float-card--a" aria-hidden="true">
+            <svg class="ic" width="20" height="20"><use href="#i-heart"/></svg><span>More time for patients</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Audience ===== -->
+    <section class="audience" aria-label="Who we serve">
+      <div class="container audience__inner">
+        <p>Built for</p>
+        <ul>
+          <li>Private practices</li>
+          <li>Specialty clinics</li>
+          <li>Urgent care centers</li>
+          <li>Behavioral health providers</li>
+          <li>Physical therapy practices</li>
+          <li>Independent physicians</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container about">
+        <div class="about__media reveal reveal--left">
+          <img
+            src="images/about-doctor.webp"
+            alt="A physician in a white coat checking a smartphone"
+            width="900" height="900"
+            loading="lazy" decoding="async" />
+          <div class="about__badge">
+            <svg class="ic" width="22" height="22" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span>Based in Hialeah, Florida</span>
+          </div>
+        </div>
+        <div class="about__copy reveal reveal--right">
+          <span class="eyebrow">Who We Are</span>
+          <h2 id="about-title">A dedicated back office for your practice</h2>
+          <p class="lead">
+            E&amp;A Medical Coding LLC supports clinics and healthcare providers with the administrative side of
+            healthcare. We take on the coding, billing and paperwork that pile up every day — so physicians and staff
+            can spend their time where it counts: with patients.
+          </p>
+          <ul class="checklist">
+            <li><svg class="ic" width="20" height="20" aria-hidden="true"><use href="#i-check"/></svg> One point of contact for your account</li>
+            <li><svg class="ic" width="20" height="20" aria-hidden="true"><use href="#i-check"/></svg> Clear updates on the work we handle</li>
+            <li><svg class="ic" width="20" height="20" aria-hidden="true"><use href="#i-check"/></svg> Services that scale with your practice</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section id="services" class="section" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Our Services</span>
+          <h2 id="services-title">Administrative support that keeps your practice running</h2>
+          <p class="lead">Pick exactly what you need. We take care of the back office while you take care of patients.</p>
+        </div>
+        <div class="grid grid--3">
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <img src="images/services/coding.webp" alt="Hands typing on a laptop next to a stethoscope" width="800" height="500" loading="lazy" decoding="async" />
+            </div>
+            <div class="service-card__body">
+              <div class="icon-badge"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-code"/></svg></div>
+              <h3>Medical Coding</h3>
+              <p>Accurate ICD-10-CM, CPT® and HCPCS Level II coding based on your documentation, helping reduce denials and keep claims compliant.</p>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <img src="images/services/billing.webp" alt="Person holding a payment card in front of a laptop" width="800" height="500" loading="lazy" decoding="async" />
+            </div>
+            <div class="service-card__body">
+              <div class="icon-badge"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-invoice"/></svg></div>
+              <h3>Medical Billing</h3>
+              <p>Charge entry, claim preparation and submission handled end to end, so your claims go out clean and on time.</p>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <img src="images/services/denials.webp" alt="Laptop showing a reporting dashboard with charts" width="800" height="500" loading="lazy" decoding="async" />
+            </div>
+            <div class="service-card__body">
+              <div class="icon-badge"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-refresh"/></svg></div>
+              <h3>Denial Management &amp; A/R Follow-up</h3>
+              <p>We track unpaid and denied claims, identify the root cause, correct and resubmit — and work aging A/R so revenue doesn’t slip away.</p>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <img src="images/services/verification.webp" alt="Classic telephone on a dark shelf" width="800" height="500" loading="lazy" decoding="async" />
+            </div>
+            <div class="service-card__body">
+              <div class="icon-badge"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-shield"/></svg></div>
+              <h3>Insurance Verification</h3>
+              <p>Eligibility and benefits checks before the visit, reducing surprises for your patients and rejections for your practice.</p>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <img src="images/services/credentialing.webp" alt="Two professionals shaking hands" width="800" height="500" loading="lazy" decoding="async" />
+            </div>
+            <div class="service-card__body">
+              <div class="icon-badge"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-badge"/></svg></div>
+              <h3>Provider Credentialing</h3>
+              <p>Payer enrollment and re-credentialing support, keeping paperwork and deadlines organized so you can see patients without delays.</p>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <img src="images/services/audit.webp" alt="Person reviewing documents with a pen" width="800" height="500" loading="lazy" decoding="async" />
+            </div>
+            <div class="service-card__body">
+              <div class="icon-badge"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-clipboard"/></svg></div>
+              <h3>Coding Audits &amp; Documentation Review</h3>
+              <p>Chart reviews that highlight coding gaps and documentation opportunities, with clear, practical feedback for your team.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Why us ===== -->
+    <section id="why-us" class="section section--tinted" aria-labelledby="why-title">
+      <div class="container why">
+        <div class="why__intro reveal reveal--left">
+          <div class="section-heading">
+            <span class="eyebrow">Why E&amp;A</span>
+            <h2 id="why-title">Your back office, handled with care</h2>
+            <p class="lead">Administrative work is necessary — but it shouldn’t take your attention away from patients. We become an extension of your team, handling the details with accuracy and discretion.</p>
+          </div>
+          <a href="#contact" class="btn btn--primary">
+            Talk to us <svg class="ic" width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+          <img
+            class="why__photo"
+            src="images/why-paperwork.webp"
+            alt="Team reviewing paperwork and reports at laptops"
+            width="1000" height="700"
+            loading="lazy" decoding="async" />
+        </div>
+        <div class="grid grid--2">
+          <div class="benefit reveal">
+            <div class="icon-badge icon-badge--soft"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-heart"/></svg></div>
+            <div><h3>Focus on your patients</h3><p>Hand off the administrative workload and give your clinical team time back for patient care.</p></div>
+          </div>
+          <div class="benefit reveal">
+            <div class="icon-badge icon-badge--soft"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-lock"/></svg></div>
+            <div><h3>Privacy-first workflows</h3><p>Patient information is handled with HIPAA requirements in mind, through secure, access-controlled processes.</p></div>
+          </div>
+          <div class="benefit reveal">
+            <div class="icon-badge icon-badge--soft"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-target"/></svg></div>
+            <div><h3>Accuracy you can rely on</h3><p>Detail-oriented coding and billing that follows current guidelines and payer rules.</p></div>
+          </div>
+          <div class="benefit reveal">
+            <div class="icon-badge icon-badge--soft"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-chat"/></svg></div>
+            <div><h3>A partner who responds</h3><p>Direct communication with the people working your account — no ticket queues, no runaround.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Process ===== -->
+    <section id="process" class="section" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">How It Works</span>
+          <h2 id="process-title">Getting started is simple</h2>
+          <p class="lead">A clear, low-friction onboarding so your practice keeps running smoothly from day one.</p>
+        </div>
+        <ol class="steps" data-observe>
+          <li class="step reveal"><span class="step__num">01</span><h3>Free consultation</h3><p>Tell us about your practice, specialty, current workflow and pain points.</p></li>
+          <li class="step reveal"><span class="step__num">02</span><h3>Tailored plan</h3><p>We propose the services you actually need and a clear onboarding timeline.</p></li>
+          <li class="step reveal"><span class="step__num">03</span><h3>Secure onboarding</h3><p>We set up access to your systems and agree on communication and reporting.</p></li>
+          <li class="step reveal"><span class="step__num">04</span><h3>Ongoing support</h3><p>We handle the day-to-day work and keep you informed with regular updates.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta__box reveal reveal--zoom">
+          <div>
+            <h2 id="cta-title">Ready to spend less time on paperwork?</h2>
+            <p>Schedule a free, no-obligation consultation and see how we can lighten your administrative load.</p>
+          </div>
+          <a href="#contact" class="btn btn--light btn--lg">Book a Free Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="section section--tinted" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <div class="section-heading">
+          <span class="eyebrow">FAQ</span>
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="faq">
+          <details class="faq__item" open>
+            <summary>What types of practices do you work with?<svg class="ic faq__icon" width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <p>We support clinics and healthcare providers of different sizes — from solo physicians to multi-provider practices. Reach out and tell us about your specialty so we can confirm the right fit.</p>
+          </details>
+          <details class="faq__item">
+            <summary>How do you protect patient information?<svg class="ic faq__icon" width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <p>We follow HIPAA-aligned practices, including minimum-necessary access, secure communication channels and signing a Business Associate Agreement (BAA) with our clients.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Do I need to change my EHR or practice management system?<svg class="ic faq__icon" width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <p>No. We work within the systems you already use, so your team doesn’t need to learn new software.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Can I use just one service, like coding only?<svg class="ic faq__icon" width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <p>Yes. You can choose a single service or combine several. We build the engagement around what your practice needs.</p>
+          </details>
+          <details class="faq__item">
+            <summary>How do we get started?<svg class="ic faq__icon" width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <p>Send us a message through the contact form or email us directly. We’ll schedule a free consultation to understand your needs.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container contact">
+        <div class="contact__info reveal reveal--left">
+          <span class="eyebrow">Contact Us</span>
+          <h2 id="contact-title">Let’s talk about your practice</h2>
+          <p class="lead">Tell us what’s taking up your team’s time. We’ll get back to you to schedule a free consultation.</p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="icon-badge icon-badge--soft"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-mail"/></svg></span>
+              <div>
+                <span class="contact__label">Email</span>
+                <a href="mailto:mehdipilarski@gmail.com">mehdipilarski@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="icon-badge icon-badge--soft"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-pin"/></svg></span>
+              <div>
+                <span class="contact__label">Address</span>
+                <address>1333 W 49th Pl, Apt 505<br />Hialeah, FL 33012-3137, US</address>
+              </div>
+            </li>
+          </ul>
+
+          <iframe
+            class="contact__map"
+            title="Map showing 1333 W 49th Pl, Hialeah, FL 33012"
+            src="https://maps.google.com/maps?q=1333%20W%2049th%20Pl%2C%20Hialeah%2C%20FL%2033012-3137&amp;z=14&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="reveal reveal--right">
+          <form id="contact-form" class="form" novalidate aria-labelledby="form-title">
+            <div class="form__head">
+              <span class="form__head-icon"><svg class="ic" width="24" height="24" aria-hidden="true"><use href="#i-chat"/></svg></span>
+              <div>
+                <h3 id="form-title">Request a free consultation</h3>
+                <p>Takes less than a minute. Fields marked <span class="req">*</span> are required.</p>
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="field">
+                <label for="f-name">Full name <span class="req" aria-hidden="true">*</span></label>
+                <div class="input-wrap">
+                  <svg class="ic" width="18" height="18" aria-hidden="true"><use href="#i-user"/></svg>
+                  <input id="f-name" name="name" type="text" autocomplete="name" placeholder="Jane Smith" required />
+                </div>
+                <span id="f-name-err" class="field__error" role="alert" hidden></span>
+              </div>
+              <div class="field">
+                <label for="f-practice">Practice / clinic <span class="opt">Optional</span></label>
+                <div class="input-wrap">
+                  <svg class="ic" width="18" height="18" aria-hidden="true"><use href="#i-building"/></svg>
+                  <input id="f-practice" name="practice" type="text" autocomplete="organization" placeholder="Sunrise Family Clinic" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="field">
+                <label for="f-email">Email <span class="req" aria-hidden="true">*</span></label>
+                <div class="input-wrap">
+                  <svg class="ic" width="18" height="18" aria-hidden="true"><use href="#i-mail"/></svg>
+                  <input id="f-email" name="email" type="email" autocomplete="email" placeholder="jane@clinic.com" required />
+                </div>
+                <span id="f-email-err" class="field__error" role="alert" hidden></span>
+              </div>
+              <div class="field">
+                <label for="f-phone">Phone <span class="opt">Optional</span></label>
+                <div class="input-wrap">
+                  <svg class="ic" width="18" height="18" aria-hidden="true"><use href="#i-phone"/></svg>
+                  <input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="(305) 555-0123" />
+                </div>
+              </div>
+            </div>
+
+            <fieldset class="field">
+              <legend>Services you’re interested in <span class="opt">Select all that apply</span></legend>
+              <div class="chips">
+                <label class="chip"><input type="checkbox" name="service" value="Medical Coding" /><span><svg class="ic" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Medical Coding</span></label>
+                <label class="chip"><input type="checkbox" name="service" value="Medical Billing" /><span><svg class="ic" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Medical Billing</span></label>
+                <label class="chip"><input type="checkbox" name="service" value="Denial Management &amp; A/R" /><span><svg class="ic" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Denials &amp; A/R</span></label>
+                <label class="chip"><input type="checkbox" name="service" value="Insurance Verification" /><span><svg class="ic" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Insurance Verification</span></label>
+                <label class="chip"><input type="checkbox" name="service" value="Credentialing" /><span><svg class="ic" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Credentialing</span></label>
+                <label class="chip"><input type="checkbox" name="service" value="Coding Audit" /><span><svg class="ic" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Coding Audit</span></label>
+                <label class="chip"><input type="checkbox" name="service" value="Not sure yet" /><span><svg class="ic" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Not sure yet</span></label>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label for="f-message">How can we help? <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="f-message" name="message" rows="5" maxlength="1000" placeholder="Tell us about your practice, specialty and what’s taking up your team’s time…" required></textarea>
+              <div class="field__meta">
+                <span id="f-message-err" class="field__error" role="alert" hidden></span>
+                <span id="msg-count" class="field__count" aria-live="polite">0 / 1000</span>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--lg btn--block form__submit">
+              Send Message <svg class="ic" width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </button>
+
+            <p class="form__note">
+              <svg class="ic" width="16" height="16" aria-hidden="true"><use href="#i-lock"/></svg>
+              Please don’t include patient health information (PHI) in this form.
+            </p>
+          </form>
+
+          <div id="form-success" class="form form__success" role="status" tabindex="-1" hidden>
+            <span class="form__success-icon"><svg class="ic" width="32" height="32" aria-hidden="true"><use href="#i-check"/></svg></span>
+            <h3>Thanks, <span id="success-name"></span>!</h3>
+            <p>Your email app should have opened with your message ready to send. If it didn’t, email us directly at
+              <a href="mailto:mehdipilarski@gmail.com">mehdipilarski@gmail.com</a>.</p>
+            <button type="button" id="send-another" class="btn btn--ghost">Send another message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#top" class="brand brand--light">
+          <svg class="logo" width="36" height="36" aria-hidden="true"><use href="#i-logo"/></svg>
+          <span class="brand__text"><strong>E&amp;A</strong> Medical Coding</span>
+        </a>
+        <p>Helping clinics and healthcare providers reduce administrative workload so they can focus on patients.</p>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#services">Medical Coding</a></li>
+          <li><a href="#services">Medical Billing</a></li>
+          <li><a href="#services">Denial Management &amp; A/R</a></li>
+          <li><a href="#services">Insurance Verification</a></li>
+          <li><a href="#services">Provider Credentialing</a></li>
+          <li><a href="#services">Coding Audits</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:mehdipilarski@gmail.com">mehdipilarski@gmail.com</a></li>
+          <li>1333 W 49th Pl, Apt 505, Hialeah, FL 33012-3137</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> E&amp;A Medical Coding LLC. All rights reserved.</p>
+      <p class="footer__legal">CPT® is a registered trademark of the American Medical Association.</p>
+    </div>
+  </footer>
+
+  <a href="#top" class="to-top" aria-label="Back to top">
+    <svg class="ic" width="22" height="22" aria-hidden="true"><use href="#i-arrow-up"/></svg>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
